@@ -4,3 +4,4 @@ dist
 demo_build
 docs/_build
 .DS_Store
+npm-debug.log
