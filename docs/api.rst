@@ -28,7 +28,7 @@ The spec is a plain javascript object that defines all of the snippets that the 
     }
   }
 
-That is, a plain object with keys corresponding to the names of snippets and values corresponding to snippet objects. Each snippet object has one property, ``groups``, which itself is an array of group objects. Group objects have two properties, ``tags``(an array of arrays, where each array is an individual tag) and ``phrases`` (an array of strings, with each string being a potential phrase that the snippet can produce).
+That is, a plain object with keys corresponding to the names of snippets and values corresponding to snippet objects. Each snippet object has one property, ``groups``, which itself is an array of group objects. Group objects have two properties, ``tags`` (an array of arrays, where each array is an individual tag) and ``phrases`` (an array of strings, with each string being a potential phrase that the snippet can produce).
 
 Binding
 .......
